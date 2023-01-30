@@ -1,2 +1,8 @@
 # CS4261_FirstProgrammingAssignment
-run npm install then expo start in the terminal, scan QR code and download the Expo Go app on your phone to use 
+
+##Instructions 
+- Download the Expo Go app on your phone
+- Your phone and computer must be on the same wifi network 
+- Navigate to the repo folder:
+- npm install 
+- expo start
