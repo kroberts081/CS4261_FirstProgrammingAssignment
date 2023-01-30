@@ -1,6 +1,6 @@
 # CS4261_FirstProgrammingAssignment
 
-##Instructions 
+## Instructions 
 - Download the Expo Go app on your phone
 - Your phone and computer must be on the same wifi network 
 - Navigate to the repo folder:
