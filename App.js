@@ -10,8 +10,6 @@ import React from 'react';
 import Header from './screens/Header';
 import AddNotesScreen from './screens/AddNotes'
 
-import { API_KEY } from './utils/WeatherAPIKey';
-
 const Stack = createNativeStackNavigator();
 
 export default function App() {
