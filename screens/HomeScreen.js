@@ -17,12 +17,23 @@ const HomeScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Text>Email: {auth.currentUser?.email}</Text>
+      <TouchableOpacity
+        onPress={() => navigation.navigate('Weather')}
+        style={styles.button}
+      >
+        <Text style={styles.buttonText}>Weather</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        onPress={() => navigation.navigate('Notes')}
+        style={styles.button}
+      >
+        <Text style={styles.buttonText}>Notes</Text>
+      </TouchableOpacity>
       <TouchableOpacity
         onPress={handleSignOut}
         style={styles.button}
       >
-        <Text style={styles.buttonText}>Sign out</Text>
+        <Text style={styles.buttonText}>Sign Out</Text>
       </TouchableOpacity>
     </View>
   )
