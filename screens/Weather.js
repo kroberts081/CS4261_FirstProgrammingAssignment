@@ -78,6 +78,9 @@ const Weather = () => {
             <Text style={styles.currentDescription}>
               {current.description}
             </Text>
+            <Text style={styles.currentDescription}>
+              {`feels like ${Math.floor(forecast.main.feels_like)}°C`}
+            </Text>
       </ScrollView>
     </SafeAreaView>
   )
