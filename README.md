@@ -6,3 +6,4 @@
 - Navigate to the repo folder:
 - npm install 
 - expo start
+- scan the QR code
