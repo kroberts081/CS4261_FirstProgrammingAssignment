@@ -5,5 +5,6 @@
 - Your phone and computer must be on the same wifi network 
 - Navigate to the repo folder:
 - npm install 
+- expo install
 - expo start
 - scan the QR code
